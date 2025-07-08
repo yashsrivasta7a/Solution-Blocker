@@ -8,6 +8,12 @@
   "action": {
     "default_popup": "page.html"
   },
+   "icons": {
+    "16": "logo/16.jpg",
+    "32":"logo/48.jpg",
+    "48": "logo/48.jpg",
+    "128": "logo/128x128.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://leetcode.com/problems/*"],
