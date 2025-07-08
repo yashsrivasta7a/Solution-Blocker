@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeetCode Tab Blocker</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1a1a2e, #6a0dad);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: rgba(38, 38, 65, 0.95);
+      padding: 30px;
+      border-radius: 20px;
+      width: 300px;
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    .card h2 {
+      color: #a78bfa;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #a78bfa;
+    }
+
+    #toggleBtn {
+      padding: 12px 25px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #6a0dad;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #toggleBtn:hover {
+      background-color: #4b0082;
+      box-shadow: 0 0 15px #a78bfa;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #d1d1e9;
+    }
+
+    .footer a {
+      color: #d1d1e9;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>LeetCode Tab Blocker</h2>
+    <button id="toggleBtn">Loading...</button>
+    <div class="footer">
+      <p><a href="https://github.com/yashsrivasta7a" target="_blank">Github⭐</a></p>
+    </div>
+  </div>
+
+  <script src="page.js"></script>
+</body>
+</html>

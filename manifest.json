@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Solution Tab Blocker",
+  "version": "1",
+  "description": "Automatically closes LeetCode solution tabs to avoid spoilers.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["*://leetcode.com/problems/*"],
+  "action": {
+    "default_popup": "page.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
